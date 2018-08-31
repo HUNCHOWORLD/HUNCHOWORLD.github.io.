@@ -176,6 +176,8 @@ header a:hover{
             #newsletter h1,
             #newsletter form{
             #boxes .box{
+            article#main-col,
+            aside#sidebar(
             float:none;
             text-align:center;
             width:100%
@@ -189,12 +191,12 @@ header a:hover{
             margin-top: 40px;
         }
     
-        #newsletter button{
+        #newsletter button, .quote buttom{
             display:block;
             width:100%;
         }
         
-        #newsletter form input[type="email"]{
+        #newsletter form input[type="email"] .quote input, .quote textarea{
             width:100%;
             margin-bottom:5px;
         }
